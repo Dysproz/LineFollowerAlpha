@@ -82,8 +82,18 @@ KP, KI and KD fields are to enter values for PID controller. Clicking the Submit
 In the left top corner is switch for manual and line following mode. Clicking Manual opens manual mode and clicking Line opens line following mode.
 Sliders are to set speed of motors. Each slider has update button under it. Set speed value on slider and update it with button.
 
-At the beginning of app you can choose bluetooth port to connect to arduino.
+At the beginning of app you can choose bluetooth port to connect to arduino. You can change this port with Select Port button too.
 ![Robot](https://github.com/Dysproz/LineFollowerAlpha/blob/master/Photos/port.PNG)
 
 To run processing code you have to add libraries from Libs folder to processing libraries.
 
+
+## Running the project
+
+1. Upload arduino code into arduino
+2. Connect powerbank to arduino and microUSB port (I recommend 5V1A for Arduino and 5V2A for motors via microUSB)
+3. Turn on the powerbank
+4. Establish bluetooth connection with HC-05 (Usually computer connect to module for few seconds and then disconnects. However, it connects automatically again when processing app starts)
+5. Run Processing code
+6. Choose right port (Wrong port usually returns port busy exception)
+7. Use it!
