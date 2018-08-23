@@ -3,6 +3,6 @@
 ###### by Szymon Piotr Krasuski 
 ###### 2016, Warsaw
 
-
+![Robot](https://github.com/Dysproz/LineFollowerAlpha/blob/master/Photos/robot1.jpg)
 
 
